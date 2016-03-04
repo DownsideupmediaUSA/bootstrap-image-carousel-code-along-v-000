@@ -10,3 +10,35 @@ img, video, audio, iframe, table, form {
 .row {
 	margin-bottom: 20px;
 }
+
+
+/*///// Carosel Styles //////*/
+
+#carosel-example-generic .item img {
+	height: auto;
+}
+
+.carousel-caption p {
+    display: none;
+}
+
+@media only screen and (min-width: 760px) {
+   #carosel-example-generic .item img {
+	 height: 348px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+	 #carosel-example-generic .item img {
+	 height: 496px;
+	}
+	 .carousel-caption p {
+      display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	 #carosel-example-generic .item img {
+	 height: 600px;
+	}
+}
